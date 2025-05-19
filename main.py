@@ -202,7 +202,7 @@ class GeneticFeatureSelector:
         plt.show()
 
 def main():
-    data_path = '/Users/george_vellos/Desktop/INFORMATICS_UNIPI/ΠΤΥΧΙΑΚΗ/home-credit-default-risk/application_train.csv'
+    data_path = '/../home-credit-default-risk/application_train.csv'
     selector = GeneticFeatureSelector(data_path=data_path)
     best_features = selector.run()
     print("Best Feature Combination Found:", best_features)
