@@ -2,7 +2,7 @@
 
 This project implements a Genetic Algorithm (GA) for feature selection applied to credit risk prediction (Home Credit Default Risk dataset). It integrates:
 
-- **Mutual Information & Total Correlation (TC)** for redundancy-aware fitness evaluation  
+- **Total Correlation (TC) and Individual Correlation (IC)** for redundancy-aware fitness evaluation  
 - **Logistic Regression** for model validation  
 - **Entropy-based redundancy reduction**  
 - **Synthetic feature generation**  
